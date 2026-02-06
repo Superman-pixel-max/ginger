@@ -9,7 +9,7 @@ function Navbar(){
                 <div className='flex'>
                     <Link to="/"><h1 className='text-background pt-3 font-bold text-3xl font-bold twinkle m'>Ginger</h1>
 </Link>
-                    <img className='w-12 h-12 mt-2' src={Ginger}/>
+                    <img className='w-12 h-12 mt-2' src={Ginger} alt='ginger'/>
                 </div>
 
                 <div>

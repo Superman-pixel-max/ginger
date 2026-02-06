@@ -17,7 +17,7 @@ function Home() {
             <div>
                 <div className='mt-24 relative'>
                     <img className='w-72 absolute shadow-lg shadow-primary/40 inset-0 m-auto z-0' src={Us} alt='us' />
-                    <img className='w-80 relative z-10 mx-auto' src={Frame} />
+                    <img className='w-80 relative z-10 mx-auto' alt='ce' src={Frame} />
                 </div>
             </div>
             <h1 className="text-5xl font-semibold butterfly text-background text-center mt-20">
