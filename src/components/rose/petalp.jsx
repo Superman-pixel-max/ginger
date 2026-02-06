@@ -1,5 +1,4 @@
 import pink from "../../images/pinkpet.png";
-import red from "../../images/redpet.png";
 
 const Petal = ({ left, delay, duration, rot }) => {
     return (

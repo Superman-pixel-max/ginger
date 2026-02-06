@@ -7,7 +7,6 @@ import Rosee from "../../images/rose.png"
 
 
 function Rose() {
-  const [open, setOpen] = useState(false);
     return (
         <div >
             <PetalField/>
