@@ -53,8 +53,8 @@ function Propose() {
       />
 
       {showQuestion && !yesClicked && (
-        <div className="mt-12">
-          <h3 className="text-2xl font-semibold text-red-500 mb-6">
+        <div className="mt-10">
+          <h3 className="text-2xl font-semibold text-red-500 mb-4">
             Will You Be Mine Forever? 💍
           </h3>
 
