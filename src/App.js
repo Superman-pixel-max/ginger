@@ -2,6 +2,7 @@ import './App.css';
 import Log from "./components/login";
 import Home from "./components/home";
 import Rose from "./components/rose/rose";
+import Propose from "./components/propose/propose";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Lay from "./lay";
 
@@ -14,8 +15,8 @@ function App() {
           <Route path="/" element={<Lay />}>
             <Route index element={<Home />} />
             <Route path="/rose" element={<Rose />} />
-            {/* <Route path="/ride" element={<Ride />} />
-            <Route path="/reg" element={<Reg />} /> */}
+            <Route path="/propose" element={<Propose />} />
+            {/* <Route path="/reg" element={<Reg />} /> */}
             
             {/* <Route path="/prof" element={<Prof />} />
             <Route path="*" element={<NoPage />} /> */}
