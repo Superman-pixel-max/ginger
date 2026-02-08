@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function Navbar(){
     return (
         <div>
-            <div className='px-8 flex items-center z-10 justify-between justify-center bg-primary w-full h-16 '>
+            <div className='px-8 flex items-center z-50 justify-between justify-center bg-primary w-full h-16 '>
                 <div className='flex'>
                     <Link to="/"><h1 className='text-background pt-3 font-bold text-3xl font-bold twinkle m'>Ginger</h1>
 </Link>

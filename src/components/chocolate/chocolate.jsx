@@ -2,7 +2,7 @@ import React from 'react';
 
 function Chocolate() {
     return (
-        <div className="min-h-screen z-1 twinkle text-accent flex items-center justify-center bg-gradient-to-br from-secondary via-pink-500 to-primary text-white relative">
+        <div className="min-h-screen twinkle text-accent flex items-center justify-center bg-gradient-to-br from-secondary via-pink-500 to-primary text-white relative">
 
             <div className="absolute top-[-400px] inset-0 pointer-events-none animate-pulse opacity-100 text-6xl flex flex-wrap items-center justify-center gap-10">
                 🍫 🍩 🍪 🍫 🍰 🍫
