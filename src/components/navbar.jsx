@@ -34,7 +34,7 @@ function Navbar(){
                    transition duration-300 twinkle">
     CHOCOLATE DAY
   </span></Link>
-                        <Link to='#' className='hover:text-tertiary group'><li>Feb. 10th {'>'}</li><span className="absolute left-1/2 -translate-x-1/2 mt-2 
+                        <Link to='/teddy' className='hover:text-tertiary group'><li>Feb. 10th {'>'}</li><span className="absolute left-1/2 -translate-x-1/2 mt-2 
                    bg-primary border-2 border-background text-tertiary font-bold text-sm px-2 py-1 rounded 
                    opacity-0 group-hover:opacity-100 
                    transition duration-300 twinkle">
