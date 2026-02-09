@@ -3,7 +3,7 @@ import TedField from './tedfield';
 
 function Teddy() {
     return (
-        <div className="h-[91vh] absolute flex flex-col twinkle items-center justify-center bg-gradient-to-br from-primary via-secondary to-pink-400 relative overflow-hidden text-accent">
+        <div className="h-[91vh] absolute flex flex-col twinkle items-center justify-center  relative text-accent">
             <TedField/>
             <div className="animate-bounce text-9xl mb-8">
                 🧸
