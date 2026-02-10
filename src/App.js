@@ -4,6 +4,7 @@ import Home from "./components/home";
 import Rose from "./components/rose/rose";
 import Propose from "./components/propose/propose";
 import Chocolate from "./components/chocolate/chocolate";
+import Promise from "./components/promise/promise";
 import Teddy from "./components/teddy/teddy";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Lay from "./lay";
@@ -20,6 +21,7 @@ function App() {
             <Route path="/propose" element={<Propose />} />
             <Route path="/choco" element={<Chocolate />} />
             <Route path="/teddy" element={<Teddy />} />
+            <Route path="/promise" element={<Promise />} />
             
             {/* <Route path="/prof" element={<Prof />} />
             <Route path="*" element={<NoPage />} /> */}
