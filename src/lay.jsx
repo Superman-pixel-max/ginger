@@ -1,16 +1,22 @@
 import React from "react";
-import {Outlet} from "react-router-dom";
+import { Outlet, useLocation } from "react-router-dom";
 import Nav from "./components/navbar";
 import Footer from "./components/footer";
 
 function Layout() {
+  const location = useLocation();
+
+  const isValentine = location.pathname === "/val";
+
   return (
     <div className="bg-secondary min-h-screen">
-      <Nav />
+      <Nav transparent={isValentine} />
+      
       <Outlet />
-      <Footer/>
+      
+      {!isValentine && <Footer />}
     </div>
   );
-};
+}
 
-export default Layout; 
+export default Layout;

@@ -8,6 +8,7 @@ import Promise from "./components/promise/promise";
 import Teddy from "./components/teddy/teddy";
 import Hug from "./components/hug/hug";
 import Kiss from "./components/kiss/kiss";
+import Val from "./components/valentine/valentine";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Lay from "./lay";
 
@@ -26,6 +27,7 @@ function App() {
             <Route path="/promise" element={<Promise />} />
             <Route path="/hug" element={<Hug />} />
             <Route path="/kiss" element={<Kiss />} />
+            <Route path="/val" element={<Val />} />
             
             {/* <Route path="/prof" element={<Prof />} />
             <Route path="*" element={<NoPage />} /> */}

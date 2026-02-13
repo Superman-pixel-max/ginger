@@ -1,6 +1,6 @@
 const Kiss = () => {
     return (
-        <div className="h-[91vh] flex flex-col items-center justify-center 
+        <div className="min-h-screen flex flex-col items-center justify-center 
          from-primary via-secondary to-pink-400 
         text-accent px-6 text-center relative overflow-hidden">
 

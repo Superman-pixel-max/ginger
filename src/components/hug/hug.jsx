@@ -2,7 +2,7 @@ import hg from "../../images/hg.jpeg";
 
 const Hug = () => {
     return (
-        <div className="h-[91vh] flex flex-col items-center justify-center bg-gradient-to-br from-primary via-secondary to-pink-400 text-accent px-6 text-center">
+        <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-primary via-secondary to-pink-400 text-accent px-6 text-center">
 
             <h3 className="twinkle text-3xl md:text-4xl font-bold mb-8">
                 Happy Hug Day Love 🫂💗

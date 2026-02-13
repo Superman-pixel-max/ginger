@@ -34,7 +34,7 @@ function Propose() {
   };
 
   return (
-    <div className=" twinkle text-center bg-secondary overflow-hidden flex flex-col items-center">
+    <div className="pt-12 twinkle text-center bg-secondary overflow-hidden flex flex-col items-center">
 
       {yesClicked && <Confetti />}
 
